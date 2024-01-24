@@ -1,0 +1,74 @@
+[
+    {
+        "file": "E:\\GIT\\GameMechanics\\GameMechanics\\Source\\GameMechanics\\GameMechanics.Build.cs",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ],
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source"
+    },
+    {
+        "file": "E:\\GIT\\GameMechanics\\GameMechanics\\Source\\GameMechanics\\GameMechanics.cpp",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ],
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source"
+    },
+    {
+        "file": "E:\\GIT\\GameMechanics\\GameMechanics\\Source\\GameMechanics\\GameMechanics.h",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ],
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source"
+    },
+    {
+        "file": "E:\\GIT\\GameMechanics\\GameMechanics\\Source\\GameMechanics\\GameMechanicsCharacter.cpp",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ],
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source"
+    },
+    {
+        "file": "E:\\GIT\\GameMechanics\\GameMechanics\\Source\\GameMechanics\\GameMechanicsCharacter.h",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ],
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source"
+    },
+    {
+        "file": "E:\\GIT\\GameMechanics\\GameMechanics\\Source\\GameMechanics\\GameMechanicsGameMode.cpp",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ],
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source"
+    },
+    {
+        "file": "E:\\GIT\\GameMechanics\\GameMechanics\\Source\\GameMechanics\\GameMechanicsGameMode.h",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ],
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source"
+    },
+    {
+        "file": "e:\\\\GIT\\\\GameMechanics\\\\GameMechanics\\\\Source\\\\GameMechanics\\\\PhysicsObjectBase.cpp",
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ]
+    },
+    {
+        "file": "e:\\\\GIT\\\\GameMechanics\\\\GameMechanics\\\\Source\\\\GameMechanics\\\\PhysicsObjectBase.h",
+        "directory": "E:\\Games\\UE_5.1\\Engine\\Source",
+        "arguments": [
+            "E:\\Visual Studio 19\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "@E:\\GIT\\GameMechanics\\GameMechanics\\.vscode\\compileCommands_Default\\GameMechanics.255.rsp"
+        ]
+    }
+]

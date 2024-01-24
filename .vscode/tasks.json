@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "GameMechanics Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Debug",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Debug",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GameMechanics Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Debug",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"DebugGame",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"DebugGame",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GameMechanics Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"DebugGame",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Development",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Development",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GameMechanics Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Development",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Test",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Test",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GameMechanics Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Test",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Shipping",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Shipping",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GameMechanics Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanics Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GameMechanics",
+				"Win64",
+				"Shipping",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"Debug",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"Debug",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GameMechanicsEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"Debug",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GameMechanicsEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"Development",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"Development",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GameMechanicsEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		},
+		{
+			"label": "GameMechanicsEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"GameMechanicsEditor",
+				"Win64",
+				"Development",
+				"E:\\GIT\\GameMechanics\\GameMechanics\\GameMechanics.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\Games\\UE_5.1"
+			}
+		}
+	]
+}
